@@ -14,6 +14,7 @@ import androidx.core.view.WindowInsetsCompat;
 public class MainActivity extends AppCompatActivity {
 
     private Button btnNuevoReporte;
+    private Button btnVerReportes;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +35,16 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // Viajamos de MainActivity hacia FormularioActivity
                 Intent intent = new Intent(MainActivity.this, FormularioActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnVerReportes = findViewById(R.id.btnVerReportes);
+
+        btnVerReportes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ListaReportesActivity.class);
                 startActivity(intent);
             }
         });

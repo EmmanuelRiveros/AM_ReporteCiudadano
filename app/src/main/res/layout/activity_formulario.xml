@@ -9,91 +9,112 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="24dp">
+        android:padding="20dp">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Nuevo Reporte"
-            android:textColor="#2E7D32"
-            android:textSize="24sp"
+            android:text="Registrar Reporte Ciudadano"
+            android:textColor="#1976D2"
+            android:textSize="22sp"
             android:textStyle="bold"
-            android:layout_marginBottom="24dp"
-            android:gravity="center" />
+            android:gravity="center"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipo de Reporte:"
+            android:textStyle="bold"
+            android:textColor="#333333"/>
+        <Spinner
+            android:id="@+id/spinnerTipo"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="15dp"
+            android:entries="@array/categorias_reporte"
+            android:background="@android:drawable/btn_dropdown"/>
 
         <EditText
             android:id="@+id/etNombre"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:hint="Tu Nombre"
+            android:layout_height="wrap_content"
+            android:hint="Nombre del interesado"
             android:inputType="textPersonName"
-            android:background="#FFFFFF"
-            android:padding="12dp"
-            android:layout_marginBottom="16dp" />
+            android:layout_marginBottom="15dp"/>
 
         <EditText
             android:id="@+id/etDireccion"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:hint="Colonia / Dirección exacta"
+            android:layout_height="wrap_content"
+            android:hint="Dirección (Calle y Número)"
             android:inputType="textPostalAddress"
-            android:background="#FFFFFF"
-            android:padding="12dp"
-            android:layout_marginBottom="16dp" />
-
-        <EditText
-            android:id="@+id/etContacto"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:hint="Celular o Correo electrónico"
-            android:inputType="text"
-            android:background="#FFFFFF"
-            android:padding="12dp"
-            android:layout_marginBottom="16dp" />
+            android:layout_marginBottom="15dp"/>
 
         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Colonia:"
+            android:textStyle="bold"
+            android:textColor="#333333"/>
+        <Spinner
+            android:id="@+id/spinnerColonia"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="15dp"
+            android:entries="@array/colonias_guaymas"
+            android:background="@android:drawable/btn_dropdown"/>
+
+        <EditText
+            android:id="@+id/etCelular"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Categoría del problema:"
-            android:textColor="#333333"
-            android:layout_marginBottom="8dp"/>
+            android:hint="Número de celular"
+            android:inputType="phone"
+            android:layout_marginBottom="15dp"/>
 
-        <Spinner
-            android:id="@+id/spinnerCategoria"
+        <EditText
+            android:id="@+id/etCorreo"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:background="#FFFFFF"
-            android:layout_marginBottom="24dp"/>
+            android:layout_height="wrap_content"
+            android:hint="Correo electrónico"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="15dp"/>
+
+        <EditText
+            android:id="@+id/etDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Describe el problema detalladamente..."
+            android:inputType="textMultiLine"
+            android:lines="3"
+            android:gravity="top"
+            android:layout_marginBottom="20dp"/>
 
         <Button
-            android:id="@+id/btnTomarFoto"
+            android:id="@+id/btnCamara"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:text="📸 TOMAR FOTO DE EVIDENCIA"
-            android:backgroundTint="#FF9800"
-            android:textColor="#FFFFFF"
-            android:textSize="16sp"
-            android:textStyle="bold"
-            android:layout_marginBottom="16dp" />
+            android:layout_height="wrap_content"
+            android:text="Tomar Evidencia (Foto)"
+            android:backgroundTint="#4CAF50"
+            android:layout_marginBottom="10dp"/>
 
         <ImageView
             android:id="@+id/imgEvidencia"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="180dp"
+            android:layout_marginBottom="20dp"
             android:scaleType="centerCrop"
             android:background="#E0E0E0"
-            android:layout_marginBottom="24dp" />
+            android:visibility="visible"/>
 
         <Button
-            android:id="@+id/btnEnviarReporte"
+            android:id="@+id/btnEnviar"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:text="ENVIAR REPORTE"
-            android:backgroundTint="#2E7D32"
-            android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:layout_marginBottom="32dp" />
+            android:layout_height="wrap_content"
+            android:text="Enviar Reporte Oficial"
+            android:backgroundTint="#1976D2"
+            android:textSize="16sp"/>
 
     </LinearLayout>
 </ScrollView>

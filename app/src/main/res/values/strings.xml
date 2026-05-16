@@ -1,3 +1,178 @@
 <resources>
-    <string name="app_name">AM_ReporteCiudadano</string>
+    <string name="app_name">Reporte Ciudadano</string>
+
+    <string-array name="categorias_reporte">
+        <item>ALUMBRADO PÚBLICO</item>
+        <item>ANIMALES CALLEJEROS O EN SITUACIÓN DE ABANDONO</item>
+        <item>BACHES</item>
+        <item>BASURA O ESCOMBRO</item>
+        <item>FUMIGACIÓN O PLAGAS</item>
+        <item>FUGAS O DRENAJE</item>
+        <item>OTRO ASUNTO</item>
+    </string-array>
+
+    <string-array name="colonias_guaymas">
+        <item>100 CASAS</item>
+        <item>13 DE JULIO</item>
+        <item>18 DE NOVIEMBRE</item>
+        <item>22 DE NOVIEMBRE</item>
+        <item>23 DE MARZO</item>
+        <item>23 DE NOVIEMBRE</item>
+        <item>29 DE NOVIEMBRE</item>
+        <item>5 DE MAYO</item>
+        <item>ACACIAS</item>
+        <item>ADOLFO DE LA HUERTA</item>
+        <item>ADOLFO LÓPEZ MATEOS</item>
+        <item>AEROCOMANDER</item>
+        <item>AEROPUERTO</item>
+        <item>ALAMO</item>
+        <item>AMADO NERVO</item>
+        <item>AMERICAS</item>
+        <item>AMPLIACION BURÓCRATA</item>
+        <item>AMPLIACIÓN INDEPENDENCIA</item>
+        <item>ANTENA</item>
+        <item>AURORA</item>
+        <item>AVENIDA 2 AL NUMERO 6</item>
+        <item>BACUM</item>
+        <item>BAMBÚ</item>
+        <item>BANCO DE PIEDRA</item>
+        <item>BICENTENARIO</item>
+        <item>BOCA ABIERTA</item>
+        <item>BRISAS</item>
+        <item>BUENAVISTA</item>
+        <item>BURÓCRATA</item>
+        <item>CALICHE</item>
+        <item>CAMPESTRE</item>
+        <item>CANTERA</item>
+        <item>CAROLINA</item>
+        <item>CARRERA 0 AL NUMERO 5</item>
+        <item>CARRERA 16 AL 30</item>
+        <item>CARRERA 6 AL 15</item>
+        <item>CENTINELA</item>
+        <item>CENTRO</item>
+        <item>CERRO GANDAREÑO</item>
+        <item>CIUDADELA</item>
+        <item>COLINAS</item>
+        <item>COLINAS DE FATIMA</item>
+        <item>COLONIA VILLA DE GUAYMAS</item>
+        <item>CONCHAS</item>
+        <item>CONSTITUCIÓN</item>
+        <item>COSTA AZUL</item>
+        <item>COTTON CLUB</item>
+        <item>CRUCERO</item>
+        <item>DEFENSORES DE GUAYMAS</item>
+        <item>DELICIAS</item>
+        <item>DIAMANTE</item>
+        <item>DIAMANTE 2</item>
+        <item>EL ITACATE</item>
+        <item>EMPALME</item>
+        <item>ESPERANZA</item>
+        <item>EXCLUSAS</item>
+        <item>FÁTIMA</item>
+        <item>FESTIVAL</item>
+        <item>FOVISSTE</item>
+        <item>FRAY BARTHOLOME DE LAS CASAS</item>
+        <item>GARCIA LOPEZ</item>
+        <item>GAVIOTAS</item>
+        <item>GOLONDRINAS</item>
+        <item>GUAYMAS NORTE</item>
+        <item>HEROES DE NACOZARI</item>
+        <item>IGNACIO ZARAGOZA</item>
+        <item>INDEPENDENCIA</item>
+        <item>INFONAVIT</item>
+        <item>JOSE MA. MORELOS Y PAVON</item>
+        <item>JOSEFA ORTIZ DE DOMINGUEZ</item>
+        <item>JOYAS DEL MAR</item>
+        <item>LA CHOLLA</item>
+        <item>LA MANGA</item>
+        <item>LAS AMERICAS</item>
+        <item>LAS COLINAS</item>
+        <item>LAS PALMAS</item>
+        <item>LAS PLAYITAS</item>
+        <item>LAS PRADERAS</item>
+        <item>LAS VILLAS</item>
+        <item>LINDA VISTA</item>
+        <item>LOMA BONITA</item>
+        <item>LOMA DORADA</item>
+        <item>LOMA LINDA</item>
+        <item>LOMAS DE COLOSIO</item>
+        <item>LOMAS DE CORTES</item>
+        <item>LOS ALAMOS</item>
+        <item>LOS CERROS</item>
+        <item>LOS PINOS</item>
+        <item>LOS PRADOS</item>
+        <item>LUIS DONALDO COLOSIO</item>
+        <item>MA. DE JESUS ALVARADO</item>
+        <item>MAR DE CORTES</item>
+        <item>MARGARITA MAZA DE JUAREZ</item>
+        <item>MESA AZUL</item>
+        <item>MIRADOR</item>
+        <item>MIRAMAR</item>
+        <item>MISIONEROS</item>
+        <item>MONTEBLLO</item>
+        <item>MONTIJO</item>
+        <item>NIZA</item>
+        <item>NUEVO HORIZONTE</item>
+        <item>OASIS</item>
+        <item>OBRERA</item>
+        <item>OCOTILLO</item>
+        <item>OCOTILLO 2</item>
+        <item>ORTIZ RUTIAGA</item>
+        <item>PALMAS</item>
+        <item>PAMPA</item>
+        <item>PEDREGAL</item>
+        <item>PEMEX</item>
+        <item>PERLA MARINA 1</item>
+        <item>PERLA MARINA 2</item>
+        <item>PESQUERA</item>
+        <item>PETROLERA</item>
+        <item>PIEDRA DE LUMBRE</item>
+        <item>PINAR</item>
+        <item>PLUTARCO ELÍAS CALLES</item>
+        <item>POLÍGONO</item>
+        <item>POPULAR</item>
+        <item>PORTALES</item>
+        <item>POTRERO</item>
+        <item>PUNTA ARENA</item>
+        <item>QUINTAS</item>
+        <item>RASTRO</item>
+        <item>REFORMA</item>
+        <item>RESIDENCIAL CORTES</item>
+        <item>RIO BAMBA</item>
+        <item>RONCADEROS</item>
+        <item>ROSITA</item>
+        <item>RUIZ CORTINEZ</item>
+        <item>SAHUARO</item>
+        <item>SAHUARO</item>
+        <item>SAN CARLOS</item>
+        <item>SAN GERONIMO</item>
+        <item>SAN JOSE DE GUAYMAS</item>
+        <item>SAN VICENTE</item>
+        <item>SANTA CLARA</item>
+        <item>SECTOR GUAYMAS</item>
+        <item>SIERRA BONITA</item>
+        <item>TINAJAS</item>
+        <item>TORIN</item>
+        <item>TÓRRES</item>
+        <item>TRIUNFO DE SANTA ROSA</item>
+        <item>TULAR</item>
+        <item>VALIENTE</item>
+        <item>VALLE BONITO</item>
+        <item>VALLE DEL MAR</item>
+        <item>VARAL</item>
+        <item>VERGELES</item>
+        <item>VICAM</item>
+        <item>VILLA SOFIA</item>
+        <item>VILLA ZARINA</item>
+        <item>VILLAHERMOSA</item>
+        <item>VILLAS</item>
+        <item>VILLAS DE MIRAMAR</item>
+        <item>VILLAS DE SAN CARLOS</item>
+        <item>VILLAS DEL PARQUE</item>
+        <item>VILLAS DEL PUERTO I</item>
+        <item>VILLAS DEL TULAR</item>
+        <item>YUCATAN</item>
+    </string-array>
+
 </resources>
+

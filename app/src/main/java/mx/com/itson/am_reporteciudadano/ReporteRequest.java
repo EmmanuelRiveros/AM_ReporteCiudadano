@@ -1,18 +1,22 @@
 package mx.com.itson.am_reporteciudadano;
 
 public class ReporteRequest {
-    private String nombre;
+    // Tienen que llamarse EXACTAMENTE igual al JSON del profesor
+    private String nombre_interesado;
     private String direccion;
-    private String contacto;
-    private String categoria;
-    private String fotoBase64;
+    private String colonia;
+    private String celular;
+    private String correo;
+    private String tipo;
+    private String descripcion;
+    private String imagen; // Aquí va el Base64
 
-    public String getNombre() {
-        return nombre;
+    public String getNombre_interesado() {
+        return nombre_interesado;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setNombre_interesado(String nombre_interesado) {
+        this.nombre_interesado = nombre_interesado;
     }
 
     public String getDireccion() {
@@ -23,37 +27,66 @@ public class ReporteRequest {
         this.direccion = direccion;
     }
 
-    public String getContacto() {
-        return contacto;
+    public String getColonia() {
+        return colonia;
     }
 
-    public void setContacto(String contacto) {
-        this.contacto = contacto;
+    public void setColonia(String colonia) {
+        this.colonia = colonia;
     }
 
-    public String getCategoria() {
-        return categoria;
+    public String getCelular() {
+        return celular;
     }
 
-    public void setCategoria(String categoria) {
-        this.categoria = categoria;
+    public void setCelular(String celular) {
+        this.celular = celular;
     }
 
-    public String getFotoBase64() {
-        return fotoBase64;
+    public String getCorreo() {
+        return correo;
     }
 
-    public void setFotoBase64(String fotoBase64) {
-        this.fotoBase64 = fotoBase64;
+    public void setCorreo(String correo) {
+        this.correo = correo;
     }
 
-    // Constructor
-    public ReporteRequest(String nombre, String direccion, String contacto, String categoria, String fotoBase64) {
-        this.nombre = nombre;
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+    public String getImagen() {
+        return imagen;
+    }
+
+    public void setImagen(String imagen) {
+        this.imagen = imagen;
+    }
+
+    // Constructor actualizado
+    public ReporteRequest(String nombre_interesado, String direccion, String colonia,
+                          String celular, String correo, String tipo,
+                          String descripcion, String imagen) {
+        this.nombre_interesado = nombre_interesado;
         this.direccion = direccion;
-        this.contacto = contacto;
-        this.categoria = categoria;
-        this.fotoBase64 = fotoBase64;
+        this.colonia = colonia;
+        this.celular = celular;
+        this.correo = correo;
+        this.tipo = tipo;
+        this.descripcion = descripcion;
+        this.imagen = imagen;
     }
 
 }
